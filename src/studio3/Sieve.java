@@ -7,9 +7,9 @@ public class Sieve {
     int input = n1.nextInt();
     int arrayLength = input + 1;
     boolean[] arr = new boolean[arrayLength];
-
+ 
     
-    for (int num = 2; num < arr.length; num++) {
+    for (int num = 2; num < arr.length; num++) { 
         if (arr[num] == false) {
             for (int i = 2; i < arr.length; i++) {
                 int num1 = num;
